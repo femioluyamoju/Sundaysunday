@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sunday-Sunday Couples Magazine | Stronger Together</title>
+    <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -26,15 +27,18 @@
             }
         }
     </script>
+    <!-- FontAwesome Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans antialiased min-h-screen flex flex-col justify-between">
 
+    <!-- Top Announcement Bar -->
     <div class="bg-brand-900 text-amber-200 text-xs sm:text-sm py-2 px-4 text-center font-medium flex items-center justify-center space-x-2">
         <i class="fa-solid fa-heart text-gold-500"></i>
-        <span>JokeFemiOluyamoju Marital Foundation — Building Stronger &amp; Godly Homes</span>
+        <span>JokeFemiOluyamoju Marital Foundation — Building Stronger & Godly Homes</span>
     </div>
 
+    <!-- Header / Navbar -->
     <header class="bg-white shadow-sm sticky top-0 z-50">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
             <div class="flex items-center space-x-3">
@@ -50,7 +54,7 @@
                 <a href="#current-issue" class="text-gray-600 hover:text-brand-900">Current Issue</a>
                 <a href="#archives" class="text-gray-600 hover:text-brand-900">Past Archives</a>
                 <a href="#interactive-game" class="text-gray-600 hover:text-brand-900">Couples' Game</a>
-                <a href="#prayer-form" class="text-gray-600 hover:text-brand-900">Prayer &amp; Feedback</a>
+                <a href="#prayer-form" class="text-gray-600 hover:text-brand-900">Prayer & Feedback</a>
             </nav>
             <div>
                 <a href="https://drive.google.com/drive/folders/1qCZladCTW4fk76NWnKmtHW5pjbPjvPXh" target="_blank" rel="noopener noreferrer" class="bg-brand-900 text-white px-4 py-2.5 rounded-xl text-sm font-bold shadow hover:bg-brand-750 transition flex items-center space-x-2">
@@ -61,18 +65,19 @@
         </div>
     </header>
 
+    <!-- Hero Section: Featured Current Issue -->
     <section id="current-issue" class="bg-gradient-to-br from-brand-900 via-brand-750 to-black text-white py-16 sm:py-24 px-4 relative overflow-hidden">
-        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
+        <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
             <div>
                 <span class="inline-block bg-gold-500/20 text-gold-500 text-xs font-bold uppercase px-3 py-1 rounded-full mb-4 border border-gold-500/30">
                     Issue 003 • November 15th, 2026
                 </span>
                 <h1 class="text-3xl sm:text-5xl font-black tracking-tight mb-4 leading-tight">
-                    Managing Couples' Resentment &amp; Conquering It
+                    Managing Couples' Resentment & Conquering It
                 </h1>
                 <p class="text-gold-500 font-semibold mb-6 text-lg">Part Three: Learning to Communicate Your Hurt Without Hurting Your Partner</p>
                 <p class="text-gray-300 mb-8 text-sm sm:text-base leading-relaxed">
-                    Discover how to talk about offences without turning every conversation into a fight, stop using permanent verdicts, and separate behaviour from identity. Plus: Resenting Your Partner's Success.
+                    Discover how to talk about offences without turning every conversation into a fight, stop using permanent verdicts, and separate behaviour from identity[span_0](start_span)[span_0](end_span)[span_1](start_span)[span_1](end_span)[span_2](start_span)[span_2](end_span). Plus: Resenting Your Partner's Success.
                 </p>
                 <div class="flex flex-wrap gap-4">
                     <button onclick="openReadModal()" class="bg-gold-500 text-brand-900 font-bold px-6 py-3.5 rounded-xl shadow-lg hover:bg-gold-600 transition flex items-center space-x-2 text-base">
@@ -85,27 +90,25 @@
                     </a>
                 </div>
             </div>
-            <div class="bg-white/10 p-6 rounded-3xl border border-white/20 backdrop-blur-md shadow-2xl text-center">
-                <div class="bg-brand-900 border-2 border-gold-500 rounded-2xl p-6 text-left shadow-inner">
-                    <div class="text-gold-500 font-bold text-xs uppercase tracking-wider mb-1">In This Edition</div>
-                    <ul class="space-y-3 text-sm text-gray-200 mt-3">
-                        <li class="flex items-center"><i class="fa-solid fa-check text-gold-500 mr-2"></i> 8 Rules for Constructive Marital Communication</li>
-                        <li class="flex items-center"><i class="fa-solid fa-check text-gold-500 mr-2"></i> Part 2: Celebrating Your Partner's Success</li>
-                        <li class="flex items-center"><i class="fa-solid fa-check text-gold-500 mr-2"></i> Couples' Game: "Tell Me Something"</li>
-                        <li class="flex items-center"><i class="fa-solid fa-check text-gold-500 mr-2"></i> Weekly Prayer Points &amp; Family Declarations</li>
-                    </ul>
+            
+            <!-- Magazine Cover Image Display -->
+            <div class="flex justify-center">
+                <div class="bg-white/10 p-4 rounded-3xl border border-white/20 backdrop-blur-md shadow-2xl">
+                    <img src="SSCM 003.jpg" alt="Sunday-Sunday Couples Magazine Issue 003 Cover" class="rounded-2xl shadow-xl w-full max-w-sm object-cover border-2 border-gold-500/40">
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Interactive Archives Section -->
     <section id="archives" class="py-16 px-4 max-w-7xl mx-auto w-full">
         <div class="text-center mb-12">
-            <h2 class="text-3xl font-black text-brand-900">Magazine Archives &amp; Past Issues</h2>
+            <h2 class="text-3xl font-black text-brand-900">Magazine Archives & Past Issues</h2>
             <p class="text-gray-600 mt-2 text-sm sm:text-base">Access all published weekly editions directly from our Google Drive repository.</p>
         </div>
 
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Issue 003 Card -->
             <div class="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden hover:shadow-xl transition flex flex-col justify-between">
                 <div class="p-6">
                     <span class="bg-amber-100 text-brand-900 text-xs font-bold px-2.5 py-1 rounded">Latest Issue</span>
@@ -114,10 +117,13 @@
                     <p class="text-sm text-gray-600">Focuses on overcoming resentment, resolving conflicts cleanly, and celebrating partner success without rivalry.</p>
                 </div>
                 <div class="p-6 pt-0">
-                    <button onclick="openReadModal()" class="w-full bg-brand-900 text-white py-3 rounded-xl font-bold hover:bg-brand-750 transition text-sm">Read Issue 003</button>
+                    <button onclick="openReadModal()" class="w-full bg-brand-900 text-white py-3 rounded-xl font-bold hover:bg-brand-750 transition text-sm">
+                        Read Issue 003
+                    </button>
                 </div>
             </div>
 
+            <!-- Issue 002 Placeholder Card -->
             <div class="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden hover:shadow-xl transition flex flex-col justify-between">
                 <div class="p-6">
                     <span class="bg-gray-100 text-gray-700 text-xs font-bold px-2.5 py-1 rounded">Archived</span>
@@ -126,10 +132,13 @@
                     <p class="text-sm text-gray-600">Revisiting foundational love, questioning negative assumptions, and renewing mutual admiration.</p>
                 </div>
                 <div class="p-6 pt-0">
-                    <a href="https://drive.google.com/drive/folders/1qCZladCTW4fk76NWnKmtHW5pjbPjvPXh" target="_blank" rel="noopener noreferrer" class="block text-center w-full bg-gray-100 text-brand-900 py-3 rounded-xl font-bold hover:bg-gray-200 transition text-sm">View in Google Drive</a>
+                    <a href="https://drive.google.com/drive/folders/1qCZladCTW4fk76NWnKmtHW5pjbPjvPXh" target="_blank" rel="noopener noreferrer" class="block text-center w-full bg-gray-100 text-brand-900 py-3 rounded-xl font-bold hover:bg-gray-200 transition text-sm">
+                        View in Google Drive
+                    </a>
                 </div>
             </div>
 
+            <!-- Issue 001 Placeholder Card -->
             <div class="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden hover:shadow-xl transition flex flex-col justify-between">
                 <div class="p-6">
                     <span class="bg-gray-100 text-gray-700 text-xs font-bold px-2.5 py-1 rounded">Archived</span>
@@ -138,48 +147,54 @@
                     <p class="text-sm text-gray-600">Introduction to silent emotional distance, unmet expectations, and laying the groundwork for healing.</p>
                 </div>
                 <div class="p-6 pt-0">
-                    <a href="https://drive.google.com/drive/folders/1qCZladCTW4fk76NWnKmtHW5pjbPjvPXh" target="_blank" rel="noopener noreferrer" class="block text-center w-full bg-gray-100 text-brand-900 py-3 rounded-xl font-bold hover:bg-gray-200 transition text-sm">View in Google Drive</a>
+                    <a href="https://drive.google.com/drive/folders/1qCZladCTW4fk76NWnKmtHW5pjbPjvPXh" target="_blank" rel="noopener noreferrer" class="block text-center w-full bg-gray-100 text-brand-900 py-3 rounded-xl font-bold hover:bg-gray-200 transition text-sm">
+                        View in Google Drive
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Interactive Couples Game Corner -->
     <section id="interactive-game" class="bg-amber-50/60 py-16 px-4 border-y border-amber-100">
         <div class="max-w-3xl mx-auto bg-white rounded-3xl p-8 sm:p-10 shadow-xl border border-amber-200 text-center">
             <span class="bg-gold-500 text-brand-900 text-xs font-black uppercase px-3 py-1 rounded-full">Couples' Corner Game</span>
             <h2 class="text-2xl sm:text-3xl font-black text-brand-900 mt-4 mb-2">"Tell Me Something" Heart-to-Heart</h2>
             <p class="text-gray-600 text-sm mb-6">Put away your phones, sit together, and click below to reveal this week's conversation prompt for deeper bonding.</p>
-            <div id="gameCard" aria-live="polite" class="bg-brand-50 p-6 rounded-2xl border border-brand-100 min-h-[120px] flex items-center justify-center text-brand-900 font-medium text-lg mb-6">
+            
+            <div id="gameCard" class="bg-brand-50 p-6 rounded-2xl border border-brand-100 min-h-[120px] flex items-center justify-center text-brand-900 font-medium text-lg mb-6">
                 Click the button below to draw your first heart-to-heart question!
             </div>
+
             <button onclick="nextGameQuestion()" class="bg-brand-900 text-white font-bold px-8 py-3.5 rounded-xl shadow hover:bg-brand-750 transition">
                 Draw Question <i class="fa-solid fa-dice ml-2"></i>
             </button>
         </div>
     </section>
 
+    <!-- Prayer Request & Feedback Form Section -->
     <section id="prayer-form" class="py-16 px-4 max-w-4xl mx-auto">
         <div class="bg-white rounded-3xl p-8 sm:p-12 shadow-xl border border-gray-100">
             <div class="text-center mb-8">
                 <span class="bg-brand-100 text-brand-900 text-xs font-bold px-3 py-1 rounded-full">Foundation Support</span>
-                <h2 class="text-2xl sm:text-3xl font-black text-brand-900 mt-3">Couples' Prayer Request &amp; Feedback</h2>
+                <h2 class="text-2xl sm:text-3xl font-black text-brand-900 mt-3">Couples' Prayer Request & Feedback</h2>
                 <p class="text-gray-600 text-sm mt-2">Have a prayer burden, a marital testimony, or feedback on our weekly editions? Send it directly to our foundation team.</p>
             </div>
 
             <form onsubmit="submitPrayerForm(event)" class="space-y-6">
                 <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     <div>
-                        <label for="senderName" class="block text-xs font-bold text-gray-700 uppercase mb-2">Your Name(s)</label>
-                        <input type="text" id="senderName" required placeholder="E.g., Mr. &amp; Mrs. Oluyamoju" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-900 focus:outline-none text-sm">
+                        <label class="block text-xs font-bold text-gray-700 uppercase mb-2">Your Name(s)</label>
+                        <input type="text" id="senderName" required placeholder="E.g., Mr. & Mrs. Oluyamoju" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-900 focus:outline-none text-sm">
                     </div>
                     <div>
-                        <label for="senderContact" class="block text-xs font-bold text-gray-700 uppercase mb-2">Email or Phone Number</label>
+                        <label class="block text-xs font-bold text-gray-700 uppercase mb-2">Email or Phone Number</label>
                         <input type="text" id="senderContact" required placeholder="E.g., brofemihsph@gmail.com" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-900 focus:outline-none text-sm">
                     </div>
                 </div>
 
                 <div>
-                    <label for="submissionType" class="block text-xs font-bold text-gray-700 uppercase mb-2">Submission Type</label>
+                    <label class="block text-xs font-bold text-gray-700 uppercase mb-2">Submission Type</label>
                     <select id="submissionType" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-900 focus:outline-none text-sm bg-white">
                         <option value="Prayer Request">Prayer Request / Burden</option>
                         <option value="Testimony">Marital Testimony</option>
@@ -189,7 +204,7 @@
                 </div>
 
                 <div>
-                    <label for="submissionMessage" class="block text-xs font-bold text-gray-700 uppercase mb-2">Your Message / Prayer Points</label>
+                    <label class="block text-xs font-bold text-gray-700 uppercase mb-2">Your Message / Prayer Points</label>
                     <textarea id="submissionMessage" rows="5" required placeholder="Share what is on your heart..." class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-900 focus:outline-none text-sm"></textarea>
                 </div>
 
@@ -201,6 +216,7 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="bg-brand-900 text-white border-t border-brand-750 py-12 px-4 mt-auto">
         <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
@@ -224,23 +240,32 @@
         </div>
     </footer>
 
-    <div id="readModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+    <!-- Reader Modal -->
+    <div id="readModal" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
         <div class="bg-white rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl relative p-6 sm:p-8">
-            <button onclick="closeReadModal()" aria-label="Close reader" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 bg-gray-100 w-8 h-8 rounded-full flex items-center justify-center font-bold">×</button>
-            <h3 id="modalTitle" class="text-2xl font-black text-brand-900 mb-2">Issue 003 Highlights</h3>
+            <button onclick="closeReadModal()" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 bg-gray-100 w-8 h-8 rounded-full flex items-center justify-center font-bold">×</button>
+            <h3 class="text-2xl font-black text-brand-900 mb-2">Issue 003 Highlights</h3>
             <p class="text-xs text-gray-500 mb-6">Published November 15th, 2026</p>
+            
+            <div class="flex justify-center mb-6">
+                <img src="SSCM 003.jpg" alt="Magazine Cover Preview" class="rounded-xl shadow-md w-48 object-cover border border-gray-200">
+            </div>
+
             <div class="space-y-4 text-sm text-gray-700 leading-relaxed text-left">
                 <h4 class="font-bold text-brand-900 text-base">Managing Couples' Resentment (Part Three)</h4>
-                <p><strong>1. Separate Behaviour from Identity:</strong> Your partner made a mistake, but that mistake does not define their entire character. Address the problem without attacking the person.</p>
-                <p><strong>2. Eliminate Permanent Verdicts:</strong> Avoid words like "always", "never", and "you will never change", which shut down constructive dialogue.</p>
-                <p><strong>3. Listen Without Defending:</strong> True communication happens when both partners feel safe to express hurt without immediately preparing counter-attacks.</p>
+                <p><strong>1. Separate Behaviour from Identity:</strong> Your partner made a mistake, but that mistake does not define their entire character. Address the problem without attacking the person[span_3](start_span)[span_3](end_span)[span_4](start_span)[span_4](end_span).</p>
+                <p><strong>2. Eliminate Permanent Verdicts:</strong> Avoid words like "always", "never", and "you will never change", which shut down constructive dialogue[span_5](start_span)[span_5](end_span)[span_6](start_span)[span_6](end_span).</p>
+                <p><strong>3. Listen Without Defending:</strong> True communication happens when both partners feel safe to express hurt without immediately preparing counter-attacks[span_7](start_span)[span_7](end_span).</p>
             </div>
             <div class="mt-8 flex gap-4">
-                <a href="https://drive.google.com/drive/folders/1qCZladCTW4fk76NWnKmtHW5pjbPjvPXh" target="_blank" rel="noopener noreferrer" class="w-full text-center bg-brand-900 text-white py-3 rounded-xl font-bold hover:bg-brand-750 transition text-sm">Open Full PDF in Google Drive</a>
+                <a href="https://drive.google.com/drive/folders/1qCZladCTW4fk76NWnKmtHW5pjbPjvPXh" target="_blank" rel="noopener noreferrer" class="w-full text-center bg-brand-900 text-white py-3 rounded-xl font-bold hover:bg-brand-750 transition text-sm">
+                    Open Full PDF in Google Drive
+                </a>
             </div>
         </div>
     </div>
 
+    <!-- JavaScript Interactive Logic -->
     <script>
         const gameQuestions = [
             "What is one thing I have done recently that made you happy?",
@@ -254,7 +279,7 @@
         function nextGameQuestion() {
             const card = document.getElementById('gameCard');
             card.style.opacity = '0';
-            window.setTimeout(() => {
+            setTimeout(() => {
                 card.textContent = gameQuestions[currentQIndex];
                 card.style.opacity = '1';
                 currentQIndex = (currentQIndex + 1) % gameQuestions.length;
@@ -263,32 +288,22 @@
 
         function openReadModal() {
             document.getElementById('readModal').classList.remove('hidden');
-            document.body.classList.add('overflow-hidden');
         }
 
         function closeReadModal() {
             document.getElementById('readModal').classList.add('hidden');
-            document.body.classList.remove('overflow-hidden');
         }
 
-        document.getElementById('readModal').addEventListener('click', function (event) {
-            if (event.target === this) closeReadModal();
-        });
-
-        document.addEventListener('keydown', function (event) {
-            if (event.key === 'Escape') closeReadModal();
-        });
-
-        function submitPrayerForm(event) {
-            event.preventDefault();
-            const name = document.getElementById('senderName').value.trim();
-            const contact = document.getElementById('senderContact').value.trim();
+        function submitPrayerForm(e) {
+            e.preventDefault();
+            const name = document.getElementById('senderName').value;
+            const contact = document.getElementById('senderContact').value;
             const type = document.getElementById('submissionType').value;
-            const message = document.getElementById('submissionMessage').value.trim();
+            const message = document.getElementById('submissionMessage').value;
 
             const emailSubject = encodeURIComponent(`[${type}] from ${name} - Sunday-Sunday Magazine`);
             const emailBody = encodeURIComponent(`Name: ${name}\nContact: ${contact}\nType: ${type}\n\nMessage:\n${message}`);
-
+            
             window.location.href = `mailto:brofemihsph@gmail.com?subject=${emailSubject}&body=${emailBody}`;
         }
     </script>
