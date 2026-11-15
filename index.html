@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunday-Sunday Couples Magazine | Stronger Together</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#fdf8f6',
+                            100: '#fbe8e6',
+                            600: '#9b2c2c',
+                            750: '#742a2a',
+                            900: '#4a1515'
+                        },
+                        gold: {
+                            500: '#d69e2e',
+                            600: '#b7791f'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans antialiased min-h-screen flex flex-col justify-between">
+
+    <div class="bg-brand-900 text-amber-200 text-xs sm:text-sm py-2 px-4 text-center font-medium flex items-center justify-center space-x-2">
+        <i class="fa-solid fa-heart text-gold-500"></i>
+        <span>JokeFemiOluyamoju Marital Foundation — Building Stronger &amp; Godly Homes</span>
+    </div>
+
+    <header class="bg-white shadow-sm sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <div class="flex items-center space-x-3">
+                <div class="bg-brand-900 text-gold-500 font-bold text-xl px-3 py-2 rounded-lg border border-gold-500 flex items-center shadow">
+                    <i class="fa-solid fa-book-open"></i>
+                </div>
+                <div>
+                    <span class="text-xl font-extrabold text-brand-900 tracking-tight">SUNDAY-SUNDAY</span>
+                    <span class="block text-[10px] text-gray-500 uppercase tracking-widest font-bold">Couples Magazine</span>
+                </div>
+            </div>
+            <nav class="hidden md:flex items-center space-x-6 text-sm font-semibold">
+                <a href="#current-issue" class="text-gray-600 hover:text-brand-900">Current Issue</a>
+                <a href="#archives" class="text-gray-600 hover:text-brand-900">Past Archives</a>
+                <a href="#interactive-game" class="text-gray-600 hover:text-brand-900">Couples' Game</a>
+                <a href="#prayer-form" class="text-gray-600 hover:text-brand-900">Prayer &amp; Feedback</a>
+            </nav>
+            <div>
+                <a href="https://drive.google.com/drive/folders/1qCZladCTW4fk76NWnKmtHW5pjbPjvPXh" target="_blank" rel="noopener noreferrer" class="bg-brand-900 text-white px-4 py-2.5 rounded-xl text-sm font-bold shadow hover:bg-brand-750 transition flex items-center space-x-2">
+                    <i class="fa-brands fa-google-drive text-gold-500"></i>
+                    <span>Google Drive Vault</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section id="current-issue" class="bg-gradient-to-br from-brand-900 via-brand-750 to-black text-white py-16 sm:py-24 px-4 relative overflow-hidden">
+        <div class="max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center relative z-10">
+            <div>
+                <span class="inline-block bg-gold-500/20 text-gold-500 text-xs font-bold uppercase px-3 py-1 rounded-full mb-4 border border-gold-500/30">
+                    Issue 003 • November 15th, 2026
+                </span>
+                <h1 class="text-3xl sm:text-5xl font-black tracking-tight mb-4 leading-tight">
+                    Managing Couples' Resentment &amp; Conquering It
+                </h1>
+                <p class="text-gold-500 font-semibold mb-6 text-lg">Part Three: Learning to Communicate Your Hurt Without Hurting Your Partner</p>
+                <p class="text-gray-300 mb-8 text-sm sm:text-base leading-relaxed">
+                    Discover how to talk about offences without turning every conversation into a fight, stop using permanent verdicts, and separate behaviour from identity. Plus: Resenting Your Partner's Success.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <button onclick="openReadModal()" class="bg-gold-500 text-brand-900 font-bold px-6 py-3.5 rounded-xl shadow-lg hover:bg-gold-600 transition flex items-center space-x-2 text-base">
+                        <i class="fa-solid fa-book-reader"></i>
+                        <span>Read Current Edition Online</span>
+                    </button>
+                    <a href="https://drive.google.com/drive/folders/1qCZladCTW4fk76NWnKmtHW5pjbPjvPXh" target="_blank" rel="noopener noreferrer" class="border border-white/30 hover:bg-white/10 text-white font-semibold px-6 py-3.5 rounded-xl transition flex items-center space-x-2 text-base">
+                        <i class="fa-solid fa-download"></i>
+                        <span>Download PDF</span>
+                    </a>
+                </div>
+            </div>
+            <div class="bg-white/10 p-6 rounded-3xl border border-white/20 backdrop-blur-md shadow-2xl text-center">
+                <div class="bg-brand-900 border-2 border-gold-500 rounded-2xl p-6 text-left shadow-inner">
+                    <div class="text-gold-500 font-bold text-xs uppercase tracking-wider mb-1">In This Edition</div>
+                    <ul class="space-y-3 text-sm text-gray-200 mt-3">
+                        <li class="flex items-center"><i class="fa-solid fa-check text-gold-500 mr-2"></i> 8 Rules for Constructive Marital Communication</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-gold-500 mr-2"></i> Part 2: Celebrating Your Partner's Success</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-gold-500 mr-2"></i> Couples' Game: "Tell Me Something"</li>
+                        <li class="flex items-center"><i class="fa-solid fa-check text-gold-500 mr-2"></i> Weekly Prayer Points &amp; Family Declarations</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="archives" class="py-16 px-4 max-w-7xl mx-auto w-full">
+        <div class="text-center mb-12">
+            <h2 class="text-3xl font-black text-brand-900">Magazine Archives &amp; Past Issues</h2>
+            <p class="text-gray-600 mt-2 text-sm sm:text-base">Access all published weekly editions directly from our Google Drive repository.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden hover:shadow-xl transition flex flex-col justify-between">
+                <div class="p-6">
+                    <span class="bg-amber-100 text-brand-900 text-xs font-bold px-2.5 py-1 rounded">Latest Issue</span>
+                    <h3 class="text-xl font-bold text-brand-900 mt-4 mb-2">Issue 003: Communicating Without Fighting</h3>
+                    <p class="text-xs text-gray-500 mb-4">Published: Nov 15, 2026</p>
+                    <p class="text-sm text-gray-600">Focuses on overcoming resentment, resolving conflicts cleanly, and celebrating partner success without rivalry.</p>
+                </div>
+                <div class="p-6 pt-0">
+                    <button onclick="openReadModal()" class="w-full bg-brand-900 text-white py-3 rounded-xl font-bold hover:bg-brand-750 transition text-sm">Read Issue 003</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden hover:shadow-xl transition flex flex-col justify-between">
+                <div class="p-6">
+                    <span class="bg-gray-100 text-gray-700 text-xs font-bold px-2.5 py-1 rounded">Archived</span>
+                    <h3 class="text-xl font-bold text-brand-900 mt-4 mb-2">Issue 002: Remembering the Beginning</h3>
+                    <p class="text-xs text-gray-500 mb-4">Published: Nov 8, 2026</p>
+                    <p class="text-sm text-gray-600">Revisiting foundational love, questioning negative assumptions, and renewing mutual admiration.</p>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://drive.google.com/drive/folders/1qCZladCTW4fk76NWnKmtHW5pjbPjvPXh" target="_blank" rel="noopener noreferrer" class="block text-center w-full bg-gray-100 text-brand-900 py-3 rounded-xl font-bold hover:bg-gray-200 transition text-sm">View in Google Drive</a>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden hover:shadow-xl transition flex flex-col justify-between">
+                <div class="p-6">
+                    <span class="bg-gray-100 text-gray-700 text-xs font-bold px-2.5 py-1 rounded">Archived</span>
+                    <h3 class="text-xl font-bold text-brand-900 mt-4 mb-2">Issue 001: Roots of Marital Resentment</h3>
+                    <p class="text-xs text-gray-500 mb-4">Published: Nov 1, 2026</p>
+                    <p class="text-sm text-gray-600">Introduction to silent emotional distance, unmet expectations, and laying the groundwork for healing.</p>
+                </div>
+                <div class="p-6 pt-0">
+                    <a href="https://drive.google.com/drive/folders/1qCZladCTW4fk76NWnKmtHW5pjbPjvPXh" target="_blank" rel="noopener noreferrer" class="block text-center w-full bg-gray-100 text-brand-900 py-3 rounded-xl font-bold hover:bg-gray-200 transition text-sm">View in Google Drive</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interactive-game" class="bg-amber-50/60 py-16 px-4 border-y border-amber-100">
+        <div class="max-w-3xl mx-auto bg-white rounded-3xl p-8 sm:p-10 shadow-xl border border-amber-200 text-center">
+            <span class="bg-gold-500 text-brand-900 text-xs font-black uppercase px-3 py-1 rounded-full">Couples' Corner Game</span>
+            <h2 class="text-2xl sm:text-3xl font-black text-brand-900 mt-4 mb-2">"Tell Me Something" Heart-to-Heart</h2>
+            <p class="text-gray-600 text-sm mb-6">Put away your phones, sit together, and click below to reveal this week's conversation prompt for deeper bonding.</p>
+            <div id="gameCard" aria-live="polite" class="bg-brand-50 p-6 rounded-2xl border border-brand-100 min-h-[120px] flex items-center justify-center text-brand-900 font-medium text-lg mb-6">
+                Click the button below to draw your first heart-to-heart question!
+            </div>
+            <button onclick="nextGameQuestion()" class="bg-brand-900 text-white font-bold px-8 py-3.5 rounded-xl shadow hover:bg-brand-750 transition">
+                Draw Question <i class="fa-solid fa-dice ml-2"></i>
+            </button>
+        </div>
+    </section>
+
+    <section id="prayer-form" class="py-16 px-4 max-w-4xl mx-auto">
+        <div class="bg-white rounded-3xl p-8 sm:p-12 shadow-xl border border-gray-100">
+            <div class="text-center mb-8">
+                <span class="bg-brand-100 text-brand-900 text-xs font-bold px-3 py-1 rounded-full">Foundation Support</span>
+                <h2 class="text-2xl sm:text-3xl font-black text-brand-900 mt-3">Couples' Prayer Request &amp; Feedback</h2>
+                <p class="text-gray-600 text-sm mt-2">Have a prayer burden, a marital testimony, or feedback on our weekly editions? Send it directly to our foundation team.</p>
+            </div>
+
+            <form onsubmit="submitPrayerForm(event)" class="space-y-6">
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div>
+                        <label for="senderName" class="block text-xs font-bold text-gray-700 uppercase mb-2">Your Name(s)</label>
+                        <input type="text" id="senderName" required placeholder="E.g., Mr. &amp; Mrs. Oluyamoju" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-900 focus:outline-none text-sm">
+                    </div>
+                    <div>
+                        <label for="senderContact" class="block text-xs font-bold text-gray-700 uppercase mb-2">Email or Phone Number</label>
+                        <input type="text" id="senderContact" required placeholder="E.g., brofemihsph@gmail.com" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-900 focus:outline-none text-sm">
+                    </div>
+                </div>
+
+                <div>
+                    <label for="submissionType" class="block text-xs font-bold text-gray-700 uppercase mb-2">Submission Type</label>
+                    <select id="submissionType" class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-900 focus:outline-none text-sm bg-white">
+                        <option value="Prayer Request">Prayer Request / Burden</option>
+                        <option value="Testimony">Marital Testimony</option>
+                        <option value="Magazine Feedback">Magazine Feedback / Topic Suggestion</option>
+                        <option value="Counseling Inquiry">Private Counseling Inquiry</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="submissionMessage" class="block text-xs font-bold text-gray-700 uppercase mb-2">Your Message / Prayer Points</label>
+                    <textarea id="submissionMessage" rows="5" required placeholder="Share what is on your heart..." class="w-full px-4 py-3 rounded-xl border border-gray-300 focus:ring-2 focus:ring-brand-900 focus:outline-none text-sm"></textarea>
+                </div>
+
+                <button type="submit" class="w-full bg-brand-900 text-white font-bold py-4 rounded-xl shadow-lg hover:bg-brand-750 transition text-base flex items-center justify-center space-x-2">
+                    <i class="fa-solid fa-paper-plane text-gold-500"></i>
+                    <span>Submit to Foundation Team</span>
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-brand-900 text-white border-t border-brand-750 py-12 px-4 mt-auto">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+            <div>
+                <h3 class="text-lg font-bold text-gold-500 mb-2">JokeFemiOluyamoju Marital Foundation</h3>
+                <p class="text-xs text-gray-300">Building stronger marriages and godly homes through practical wisdom, faith, and healthy communication.</p>
+            </div>
+            <div>
+                <h4 class="font-bold text-sm mb-2 text-white">Contact Editors</h4>
+                <p class="text-xs text-gray-300"><i class="fa-solid fa-envelope mr-2 text-gold-500"></i> brofemihsph@gmail.com | sisjokehsph@gmail.com</p>
+                <p class="text-xs text-gray-300 mt-1"><i class="fa-solid fa-phone mr-2 text-gold-500"></i> +234 818 931 8378 | +234 701 751 7655</p>
+            </div>
+            <div>
+                <h4 class="font-bold text-sm mb-2 text-white">Drive Repository</h4>
+                <a href="https://drive.google.com/drive/folders/1qCZladCTW4fk76NWnKmtHW5pjbPjvPXh" target="_blank" rel="noopener noreferrer" class="text-xs text-gold-500 hover:underline flex items-center">
+                    <i class="fa-brands fa-google-drive mr-2"></i> Access Google Drive Vault
+                </a>
+            </div>
+        </div>
+        <div class="max-w-7xl mx-auto pt-6 border-t border-white/10 text-center text-xs text-gray-400">
+            &copy; 2026 Sunday-Sunday Couples Magazine. All rights reserved.
+        </div>
+    </footer>
+
+    <div id="readModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" class="fixed inset-0 bg-black/70 backdrop-blur-sm z-50 flex items-center justify-center p-4 hidden">
+        <div class="bg-white rounded-3xl max-w-2xl w-full max-h-[90vh] overflow-y-auto shadow-2xl relative p-6 sm:p-8">
+            <button onclick="closeReadModal()" aria-label="Close reader" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 bg-gray-100 w-8 h-8 rounded-full flex items-center justify-center font-bold">×</button>
+            <h3 id="modalTitle" class="text-2xl font-black text-brand-900 mb-2">Issue 003 Highlights</h3>
+            <p class="text-xs text-gray-500 mb-6">Published November 15th, 2026</p>
+            <div class="space-y-4 text-sm text-gray-700 leading-relaxed text-left">
+                <h4 class="font-bold text-brand-900 text-base">Managing Couples' Resentment (Part Three)</h4>
+                <p><strong>1. Separate Behaviour from Identity:</strong> Your partner made a mistake, but that mistake does not define their entire character. Address the problem without attacking the person.</p>
+                <p><strong>2. Eliminate Permanent Verdicts:</strong> Avoid words like "always", "never", and "you will never change", which shut down constructive dialogue.</p>
+                <p><strong>3. Listen Without Defending:</strong> True communication happens when both partners feel safe to express hurt without immediately preparing counter-attacks.</p>
+            </div>
+            <div class="mt-8 flex gap-4">
+                <a href="https://drive.google.com/drive/folders/1qCZladCTW4fk76NWnKmtHW5pjbPjvPXh" target="_blank" rel="noopener noreferrer" class="w-full text-center bg-brand-900 text-white py-3 rounded-xl font-bold hover:bg-brand-750 transition text-sm">Open Full PDF in Google Drive</a>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const gameQuestions = [
+            "What is one thing I have done recently that made you happy?",
+            "Is there something you have wanted to tell me but have struggled to express?",
+            "What is one dream or goal you would like me to support?",
+            "When you feel discouraged, what kind of encouragement do you need from me?",
+            "What is one thing we can do this week to communicate better?"
+        ];
+        let currentQIndex = 0;
+
+        function nextGameQuestion() {
+            const card = document.getElementById('gameCard');
+            card.style.opacity = '0';
+            window.setTimeout(() => {
+                card.textContent = gameQuestions[currentQIndex];
+                card.style.opacity = '1';
+                currentQIndex = (currentQIndex + 1) % gameQuestions.length;
+            }, 200);
+        }
+
+        function openReadModal() {
+            document.getElementById('readModal').classList.remove('hidden');
+            document.body.classList.add('overflow-hidden');
+        }
+
+        function closeReadModal() {
+            document.getElementById('readModal').classList.add('hidden');
+            document.body.classList.remove('overflow-hidden');
+        }
+
+        document.getElementById('readModal').addEventListener('click', function (event) {
+            if (event.target === this) closeReadModal();
+        });
+
+        document.addEventListener('keydown', function (event) {
+            if (event.key === 'Escape') closeReadModal();
+        });
+
+        function submitPrayerForm(event) {
+            event.preventDefault();
+            const name = document.getElementById('senderName').value.trim();
+            const contact = document.getElementById('senderContact').value.trim();
+            const type = document.getElementById('submissionType').value;
+            const message = document.getElementById('submissionMessage').value.trim();
+
+            const emailSubject = encodeURIComponent(`[${type}] from ${name} - Sunday-Sunday Magazine`);
+            const emailBody = encodeURIComponent(`Name: ${name}\nContact: ${contact}\nType: ${type}\n\nMessage:\n${message}`);
+
+            window.location.href = `mailto:brofemihsph@gmail.com?subject=${emailSubject}&body=${emailBody}`;
+        }
+    </script>
+</body>
+</html>
